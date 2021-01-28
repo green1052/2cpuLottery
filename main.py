@@ -12,8 +12,6 @@ if not userId or not password or not url or not lotteryCount:
     print("입력 값이 잘못됐습니다.")
     exit()
 
-# https://2cpu.co.kr/freeboard_2011/1382919?&page=1
-
 print("\n\n\n\n\n")
 
 session = requests.Session()
